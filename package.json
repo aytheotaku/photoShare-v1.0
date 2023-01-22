@@ -1,0 +1,26 @@
+{
+  "name": "photoshare-v1.0",
+  "version": "1.0.0",
+  "description": "A web app for sharing your awesome moments captured in a picture.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aytheotaku/photoShare-v1.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aytheotaku/photoShare-v1.0/issues"
+  },
+  "homepage": "https://github.com/aytheotaku/photoShare-v1.0#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
