@@ -3,9 +3,9 @@ const app = express();
 const PORT_NUMBER = 3000;
 
 // telling express where to get static files to be served
+app.use(express.static('public'))
 app.set("view engine", "ejs")
 
-app.use(express.static('public'))
 
 //telling express to use ejs as template engine
 
